@@ -1,11 +1,20 @@
 # Python
 __pycache__/
 *.pyc
-.venv/
-env/
+*.pyo
+*.pyd
+*.egg-info/
+.eggs/
 
-# Secrets
+# Environments
 .env
+.venv/
+venv/
+ENV/
 
-# OS
+# Mac
 .DS_Store
+
+# VSCode / PyCharm
+.vscode/
+.idea/
